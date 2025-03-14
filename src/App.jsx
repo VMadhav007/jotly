@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Waves from './Waves';
-import Header from "./components/Header";
+import Header from "./components/header";
 import Note from "./components/Note";
 import Input from "./components/Input";
 import "./App.css";
