@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Waves from './Waves';
 import Header from "./components/header";
-import Note from "./components/Note";
-import Input from "./components/Input";
+import Note from "./components/note";
+import Input from "./components/input";
 import "./App.css";
 
 function App() {
