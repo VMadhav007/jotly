@@ -1,0 +1,25 @@
+@import './components/Header.css';
+@import './components/Input.css';
+@import './components/Note.css';
+@import './components/Footer.css';
+@import './App.css';
+
+/* Define CSS variables and styles after imports */
+:root {
+  --red: #ff3b3b;
+  --pink: #ff2a75;
+  --black: #222;
+  --light-bg: #f0efed;
+  --shadow-offset: 6px;
+}
+
+/* Reset and base styles */
+body {
+  margin: 0;
+  padding: 0; 
+  background-color: var(--light-bg);
+  font-family: 'Inter', 'Helvetica Neue', sans-serif;
+  color: var(--black);
+  position: relative;
+  overflow-x: hidden;
+}
